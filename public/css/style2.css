@@ -1,0 +1,187 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb
+}
+
+
+
+/* Estilos para el encabezado */
+header {
+  background-color: #fff159;
+  color: #000000;
+  padding: 20px;
+  /*border: 1px solid #ff0000;*/
+
+}
+
+.logo-search {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  /*border: 1px solid #ff0000;*/
+
+
+}
+
+.logo img {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: auto;
+  /*border: 1px solid #ff0000;*/
+
+  margin-left: 10px;
+  margin-top: 4px;
+
+
+}
+
+
+
+
+.search-bar {
+  display: flex;
+
+}
+
+.search-bar input[type="text"] {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+
+}
+
+.search-bar i {
+  background-color: #333;
+  /* Gris */
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.burger-menu {
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid #000000;*/
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav ul li {
+  list-style: none;
+
+
+
+}
+
+.header-icons {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /*border: 1px solid #ff0000;*/
+
+  }
+
+  nav ul li a {
+    color: #000000;
+    margin: 5px;
+    text-decoration: none;
+
+
+  }
+}
+
+
+
+.header-icons i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.img-basadoentuultimavisita img{
+  display: flex;
+  width: 100vw;
+
+}
+
+/* Estilos para la sección de productos */
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /*border: 1px solid #ff0000;*/
+}
+
+
+
+.productos article {
+  background-color: #fff;
+  border: 1px solid #656262;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(25% - 20px);
+
+}
+
+.productos h2 {
+  max-width: 100%;
+  right: aut;
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+.productos article a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.productos article p {
+  font-size: 100%;
+  font-weight: bold;
+  overflow: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+}
