@@ -12,7 +12,7 @@ const PORT= process.env.PORT || 8000; //proceso que voy a levantar, node main.js
 
 app.get('/home', (req, res)=> {
   //res.send("Hola, estamos en el home")
-  res.sendFile(path.join(__dirname, '/view/home.html'));
+  res.sendFile(path.join(__dirname, '/view/homev2.html'));
 })
 
 let saludo = "Bienvenido/a, ahora estamos en tu perfil"
